@@ -1,0 +1,7 @@
+NFT que esta repaldado por 1 o más tokens
+
+Se conecta la wallet
+
+Se obtiene precio de TAO de API = priceTao
+
+se calcula precio NFT = $150 + pirceTao
