@@ -183,25 +183,72 @@ body {
 
 #div3 {
     position: absolute;
-    filter: invert(0);
-    margin: 30vh 7vw;
-    width: 25vw;
-    height: 20vh;
-    background-color: rgba(0, 0, 0, 0.621);
-    background: linear-gradient(254deg, rgb(86 38 158 / 50%), rgb(217 244 96 / 63%), rgb(71 132 255 / 50%));
-    box-shadow:  2px 2px 4px rgba(0, 0, 0, 0.662);
+    margin: 90vh 51vw;
+    width: 20vw;
+    height: 5vh;
+    background-color:  rgba(0, 0, 0, 0.305);
+    border-style: solid;
+    border-radius: 0vw;
+    border-color: rgb(255, 255, 255);
+    border-width: 1px;
+    color: rgb(255, 255, 255);
+    font-size: 1.3vw;
+    box-shadow: 3px 3px 1px rgb(1, 1, 2);
     border-radius: 0.3vw;
-}
+    filter: blur(0px);
+    padding-left: 1vw;
+} #div3::placeholder {color:rgb(198, 198, 198);}
 
 #div4 {
     position: absolute;
-    filter: invert(0);
-    margin: 55vh 7vw;
-    width: 25vw;
-    height: 20vh;
-    background-color: rgba(255, 255, 255, 0.621);
-    /*background: linear-gradient(120deg, rgb(86 38 158 / 50%), rgb(40 24 245 / 63%), rgb(71 132 255 / 50%));*/
-    box-shadow:  2px 2px 4px rgba(0, 0, 0, 0.662);
+    margin: 100vh 51vw;
+    width: 20vw;
+    height: 5vh;
+    background-color:  rgba(0, 0, 0, 0.305);
+    border-style: solid;
+    border-radius: 0vw;
+    border-color: rgb(255, 255, 255);
+    border-width: 1px;
+    color: rgb(255, 255, 255);
+    font-size: 1.3vw;
+    box-shadow: 3px 3px 1px rgb(1, 1, 2);
+    border-radius: 0.3vw;
+    filter: blur(0px);
+    padding-left: 1vw;
+} #div4::placeholder {color:rgb(198, 198, 198);}
+
+#div5 {
+    position: absolute;
+    margin: 110vh 51vw;
+    width: 20vw;
+    height: 5vh;
+    background-color:  rgba(0, 0, 0, 0.305);
+    border-style: solid;
+    border-radius: 0vw;
+    border-color: rgb(255, 255, 255);
+    border-width: 1px;
+    color: rgb(255, 255, 255);
+    font-size: 1.3vw;
+    box-shadow: 3px 3px 1px rgb(1, 1, 2);
+    border-radius: 0.3vw;
+    filter: blur(0px);
+    padding-left: 1vw;
+} #div5::placeholder {color:rgb(198, 198, 198);}
+
+#conMe {
+    position: absolute;
+    margin: 135vh 56vw;
+    width: 12vw;
+    height: 7vh;
+    background-color: rgba(255, 255, 255, 0.756);
+    border-style: none;
+    border-bottom-style: none;
+    border-radius: 0vw;
+    border-color: rgb(7, 0, 50);
+    border-width: 1px;
+    color: rgb(4, 0, 80);
+    font-size: 1.3vw;
+    box-shadow: 3px 3px 1px rgb(1, 1, 2);
     border-radius: 0.3vw;
 }
 
