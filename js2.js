@@ -27,24 +27,27 @@ myDiv.addEventListener('scroll', function() {
 
 var myDiv = document.getElementById("divB");
 var bgB = document.getElementById("bgB");
+var isScrollingDown = false;
 
 myDiv.addEventListener('scroll', function() {
-
     var s = myDiv.scrollTop;
-
     var h = document.documentElement.scrollHeight;
+    var m = h / 2.2;
 
-    var m = h / 2;
-
-    if (s > m) {
-        document.getElementById("bgB").src = "bg3.png";
+    // Detectar la dirección del scroll
+    if (s > m && !isScrollingDown) {
+        isScrollingDown = true;
         bgB.classList.remove('fadeOut');
         bgB.classList.add('fadeIn');
-
-    } else {
+        bgB.style.filter = "invert(0)";
+        document.getElementById("bgB").src = "bg5.png";
+        
+    } else if (s < m && isScrollingDown) {
+        isScrollingDown = false;
+        bgB.classList.remove('fadeOut');
+        bgB.classList.add('fadeIn');
+        bgB.style.filter = "invert(100)";
         document.getElementById("bgB").src = "bg4.png";
-        bgB.classList.remove('fadeIn');
-        bgB.classList.add('fadeOut');
+       
     }
-
-})
+});
